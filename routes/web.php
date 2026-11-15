@@ -51,3 +51,9 @@ return 'Halaman Data Dosen';
 Route::get('/matakuliah', function () {
 return 'Halaman Data Kuliah';
 })->name('Matakuliah');
+Route::get('/Rocky Mizwar', function () {
+return '265720112003';
+})->name('Rocky');
+Route::get('/Sistem_Informasi', function () {
+return 'Rocky Mizwar';
+})->name('Rocky');
